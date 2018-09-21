@@ -1,43 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
 <title>Page Title</title>
+  <link rel="stylesheet"href="public/css/style_index.css">
 </head>
-<body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-=======
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-* {
-  box-sizing: border-box;
-}
-.menu {
-  float: left;
-  width: 20%;
-}
-.menuitem {
-  padding: 8px;
-  margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
-}
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 2px;
-  overflow: hidden;
-}
-.right {
-  background-color: lightblue;
-  float: left;
-  width: 20%;
-  padding: 10px 15px;
-  margin-top: 7px;
-}
-
-@media only screen and (max-width:800px) {
+  @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
     width: 80%;
@@ -54,7 +22,8 @@
   }
 }
 </style>
-</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body style="font-family:Verdana;">
 
 <div style="background-color:#900;padding:15px;">
@@ -73,7 +42,7 @@
   <div class="main">
     <h2>The Walk</h2>
     <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
-    <img src="public/img/Ninja.jpg" style="width:100%" alt="Ninja">
+    <img src="public/img/Ninja.jpg" alt="Ninja">
   </div>
 
   <div class="right">
